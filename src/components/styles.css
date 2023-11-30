@@ -1,0 +1,43 @@
+.heading {
+  margin-top: 10px;
+  text-transform: uppercase;
+  color: var(--base2);
+}
+input{
+  outline:none;
+  padding: 5px;
+  border-radius: 5px;
+}
+.submitBtn {
+  outline: none;
+  padding: 5px;
+  border-radius:5px;
+  cursor: pointer;
+}
+
+.taskList{
+  display:flex ;
+  align-items: center;
+  flex-direction: column;
+}
+.cardContainer{
+  border-radius: 5px;
+  width:100%;
+  padding: 20px;
+  background-color: rgb(240, 206, 54);
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+.todoText{
+  flex: 1;
+}
+
+.icons{
+  flex: 1;
+  display: flex;
+  gap: 5px;
+  cursor: pointer;
+}
